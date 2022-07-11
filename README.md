@@ -35,9 +35,10 @@ Voici un exemple de rendu qui respecte les règles (les proportions et les score
 * Une fonction récursive de tri a été implémentée (pas d'utilisation de la méthode native Array.sort() mais de *sortData() cf. ligne 528*).
 * Le code est déposé sur git sur la plateforme github.
 * ***Test :***
-  * *Affichage, étape par étape, des résultats dans la console.
+  * *Affichage, étape par étape, des résultats dans la console.*
   * *Contrôle des résulats et affichage dans le console de message d'alerte via des if - else.*
   * *Contrôle de l'affichage dans Firefox, Chrome et Edge.* 
 * ***En bonus :***
+  * *Dans un souci d'accessibilité, j'ai utilisé un gamme de couleurs adaptée aux personnes présentant les défauts de vision du daltonisme.*
   * *Comme la représentation graphique en tranches n'est pas vraiment habituelle pour l'ensemble des visiteurs potentiels, j'ai créé une seconde représentation à barres horizontales (non demandée) qui, si elle ne répond pas à l'ensemble des instructions, se rapproche plus des types de représentations habituelles ce qui permet d'offrir une alternative qui ne "perde" pas le visiteur tout en "éduquant". Cette seconde représentation est accessible via un formulaire à input radio placé au-dessus des résultats.*
-  * *Afin de mieux percevoir ce que cette représentation graphique des résultats pourraient ressembler une fois en ligne, je l'ai placée au sein d'une page reprenant "très grossièrement" l'aspect des pages du site grandpoitiers.fr. J'avoue avoir utilisé les onglets Inspecteur et Editeur de style des outils de développement de mozilla firefox pour trouver le nom de la police utilisée et la pipette pour les couleurs. Par ailleurs, j'ai effectué des captures d'écran pour les logotypes.* ***Je n'utiliserai pas ces informations en dehors de cet exercice.***
+  * *Afin de mieux percevoir ce à quoi cette représentation graphique des résultats pourraient ressembler une fois en ligne, je l'ai placée au sein d'une page reprenant "très grossièrement" l'aspect des pages du site grandpoitiers.fr. J'avoue avoir utilisé les onglets Inspecteur et Editeur de style des outils de développement de mozilla firefox pour trouver le nom de la police utilisée et la pipette pour les couleurs. Par ailleurs, j'ai effectué des captures d'écran pour les logotypes.* ***Je n'utiliserai pas ces informations en dehors de cet exercice.***
