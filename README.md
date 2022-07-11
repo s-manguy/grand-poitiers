@@ -1,7 +1,6 @@
 # Exercice technique - candidature à Grand-Poitiers
 
 ## Rappel des Instructions
-
 * Créer une représentation graphique des résultats du premier tour des élections présidentielles 2022 à Poitiers.
 * Dans un **canvas**, pour chaque candidat : placer forme géométrique pleine (de couleur distinctes) dont la surface est proportionelle à son score au premier tour.
 * Les formes géométriques représentants les scores ne doivents pas se chevaucher et doivent remplir la totalité de l'espace disponible dans le canvas.
@@ -20,3 +19,17 @@ Voici un exemple de rendu qui respecte les règles (les proportions et les score
 *Note : d'autres types de représentations sont possibles, tant que les règles sont respéctées*
 
 ![exemple de rendu](https://i.ibb.co/hYPGymd/Exo-de-code.png)
+
+
+## Solution proposée
+* Une représentation graphique des résultats du premier tour des élections présidentielles 2022 à Poitiers.
+* Type de la représentation : Vertical slices treemap diagram. Dans un canvas, pour chaque candidat : un rectangle vertical plein (de couleur distinctes) dont la surface est proportionelle à son score au premier tour.
+* Les formes géométriques représentants les scores ne se chevauchent pas et remplissent la totalité de l'espace disponible dans le canvas.
+* La liste des candidat ordonnée par leur score obtenu est affichée à côté (version desktop) ou au-dessous (versions tablette et téléphone) du canvas.
+* L"exercice ustilise des technologies web et est rendu au sein d'un seul fichier html.
+* Le canvas aura l'id shapesCanvas.
+* Les données seront récupérées par le client à chaque chargement de la page depuis l'API open data de Grand Poitiers sur le jeu de données Citoyenneté - Election Présidentielle - Poitiers 2022 - 1er tour - Résultats. 
+* Le rendu est dynamique et prend en compte les données fraîches reçues depuis l'open data.
+* L'API canvas est utilisée pour dessiner dans le canvas.
+* Une fonction récursive de tri a été implémentée (pas d'utilisation de la méthode native Array.sort()).
+* Le code est déposé sur git sur la plateforme github.
